@@ -1,0 +1,1 @@
+import{b as s,j as t,t as p,V as n}from"./index-BJJBd-7W.js";const r="_app_wtitb_1",i={app:r};function o(){const a=s(e=>e.openApp==="carnet");return t.jsxs("div",{className:i.app,"data-testid":"carnet-app",children:[t.jsx("h1",{children:p("carnet.title")}),t.jsx(n,{variant:"phone",visible:a})]})}export{o as default};

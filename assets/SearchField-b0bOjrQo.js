@@ -1,0 +1,6 @@
+import{i as f,r as n,j as e,t as h}from"./index-BJJBd-7W.js";import{S as m}from"./SocialIcons-C45hDZwM.js";/**
+ * @license lucide-react v1.67.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c={name:"trash",size:24,node:[["path",{d:"M10 11v6",key:"nco0om"}],["path",{d:"M14 11v6",key:"outv1u"}],["path",{d:"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6",key:"miytrc"}],["path",{d:"M3 6h18",key:"d0wm0j"}],["path",{d:"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",key:"e791ji"}]],aliases:["trash-2"]};c.node;const w=f(c),p="_row_3mfwk_1",j="_field_3mfwk_8",r={row:p,field:j};function _({value:i,onChange:l,active:a,onActive:s,placeholder:d,testId:t}){const o=n.useRef(null);return n.useEffect(()=>{a&&o.current?.focus({preventScroll:!0})},[a]),e.jsxs("div",{className:r.row,"data-active":a,children:[e.jsxs("label",{className:r.field,children:[e.jsx(m,{size:15,weight:2.2}),e.jsx("input",{ref:o,value:i,inputMode:"none",autoComplete:"off",placeholder:d,onFocus:()=>s(!0),onChange:u=>l(u.target.value),"data-testid":t})]}),a&&e.jsx("button",{onClick:()=>s(!1),"data-testid":t&&`${t}-cancel`,children:h("lock.cancel")})]})}export{_ as S,w as T};
